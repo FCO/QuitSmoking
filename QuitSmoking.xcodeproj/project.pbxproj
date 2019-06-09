@@ -15,6 +15,9 @@
 		ED7AE1E022AAE5F50018740A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7AE1DE22AAE5F50018740A /* LaunchScreen.storyboard */; };
 		ED7AE1EB22AAE5F50018740A /* QuitSmokingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7AE1EA22AAE5F50018740A /* QuitSmokingTests.swift */; };
 		ED7AE1F622AAE5F50018740A /* QuitSmokingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7AE1F522AAE5F50018740A /* QuitSmokingUITests.swift */; };
+		ED7AE20422AC50630018740A /* DetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7AE20322AC50630018740A /* DetailRow.swift */; };
+		ED7AE20622AC51090018740A /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7AE20522AC51090018740A /* Details.swift */; };
+		ED7AE20822AC7F280018740A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7AE20722AC7F280018740A /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		ED7AE1F122AAE5F50018740A /* QuitSmokingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuitSmokingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7AE1F522AAE5F50018740A /* QuitSmokingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuitSmokingUITests.swift; sourceTree = "<group>"; };
 		ED7AE1F722AAE5F50018740A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7AE20322AC50630018740A /* DetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRow.swift; sourceTree = "<group>"; };
+		ED7AE20522AC51090018740A /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		ED7AE20722AC7F280018740A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				ED7AE1DE22AAE5F50018740A /* LaunchScreen.storyboard */,
 				ED7AE1E122AAE5F50018740A /* Info.plist */,
 				ED7AE1DB22AAE5F50018740A /* Preview Content */,
+				ED7AE20322AC50630018740A /* DetailRow.swift */,
+				ED7AE20522AC51090018740A /* Details.swift */,
+				ED7AE20722AC7F280018740A /* Data.swift */,
 			);
 			path = QuitSmoking;
 			sourceTree = "<group>";
@@ -268,6 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED7AE1D422AAE5F40018740A /* AppDelegate.swift in Sources */,
+				ED7AE20822AC7F280018740A /* Data.swift in Sources */,
+				ED7AE20622AC51090018740A /* Details.swift in Sources */,
+				ED7AE20422AC50630018740A /* DetailRow.swift in Sources */,
 				ED7AE1D622AAE5F40018740A /* SceneDelegate.swift in Sources */,
 				ED7AE1D822AAE5F40018740A /* ContentView.swift in Sources */,
 			);
