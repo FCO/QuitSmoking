@@ -10,6 +10,10 @@ struct Data {
     var interval    = TimeInterval(15 * 60)
     var punishment  = 0.2
     
+    init() {
+        load()
+    }
+    
     func save() {
         defaults.set(extra,         forKey: "extra"         )
         defaults.set(smokedToday,   forKey: "smokedToday"   )
