@@ -14,7 +14,7 @@ struct Details : View {
     var body: some View {
         VStack {
             DetailRow(title: "Smoked cigarrets today",  value: "\(data.smokedToday)")
-            DetailRow(title: "Smoked cigarrets total",  value: "\(data.smokedToday)")
+            DetailRow(title: "Smoked cigarrets total",  value: "\(data.smokedTotal)")
             DetailRow(title: "Money spent",             value: "£\(data.spent)")
             DetailRow(title: "Extra cigarretes",        value: "\(data.extra)")
         }
